@@ -142,7 +142,7 @@ b{
   transition: all 1s linear;
 }
 b.back{
-  transform: translateZ(-100px) rotateY(180deg);
+  transform: translateZ(-100px);
   
 }
 b.right{
@@ -209,7 +209,7 @@ i.top{
   top:150px;
 }
 .cube:hover b.top{
-  transform: translateZ(100px) rotateX(-210deg);
+  transform: translateZ(100px);
   transform-origin: left center;
 }
 .cube:hover i{
