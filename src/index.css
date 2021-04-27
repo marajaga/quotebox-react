@@ -152,14 +152,16 @@ i{
   position:absolute;
   top:50px;
   left:50px;
-  width:400px;
-  height:300px;
+  width:300px;
+  height:200px;
   display:block;
   transition: all 1s linear;
 }
 i.front{
   transform: translateZ(50px);
+  padding: 5px 20px;
 }
+
 i.back{
   transform: translateZ(-50px);
   background-color: rgb(169, 219, 213);
