@@ -146,14 +146,6 @@ b.back{
   transform: translateZ(-100px);
   
 }
-b.right{
-  transform:rotateY(-270deg) translateX(100px);
-  transform-origin: top right;
-}
-b.left{
-  transform:rotateY(270deg) translateX(-100px);
-  transform-origin: center left;
-}
 b.top{
   transform:rotateX(-90deg) translateY(-100px);
   transform-origin: top center;
@@ -191,14 +183,7 @@ i.bottom{
   transform:rotateX(-90deg) translateY(50px);
   transform-origin: left bottom;
 }
-i.left{
-  transform:rotateY(270deg) translateX(-50px);
-  transform-origin: center left;
-}
-i.right{
-  transform:rotateY(-270deg) translateX(50px);
-  transform-origin: top right;
-}
+
 i.top{
   transform:rotateX(-270deg) translateY(-50px);
   transform-origin: left top;
