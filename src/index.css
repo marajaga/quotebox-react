@@ -183,7 +183,7 @@ i.front{
   transform: translateZ(50px);
 }
 i.back{
-  transform: translateZ(-50px) rotateY(180deg);
+  transform: translateZ(-50px) ;
   background-color: rgb(169, 219, 213);
 }
 i.bottom{
