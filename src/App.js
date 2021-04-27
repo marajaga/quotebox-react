@@ -36,9 +36,11 @@ function App() {
               <div className="cube">
                 <b className="front"></b>
                 <i className="front">
-                  <p className="quote">{quote && quote.text}</p>
-                  <p className="quote-author">{quote && quote.author}</p>
-                  <p className="quote-contributor">proposé(e) par {quote && quote.contributor}</p></i>
+                  <div className="quote-container">
+                    <p className="quote">{quote && quote.text}</p>
+                    <p className="quote-author">{quote && quote.author}</p>
+                    <p className="quote-contributor">proposé(e) par {quote && quote.contributor}</p></div></i>
+
                 <i className="back"></i>
               </div>
             </div>

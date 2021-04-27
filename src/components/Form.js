@@ -36,7 +36,7 @@ function Form() {
                     <input type="text" className="form-control" id="author" placeholder="Entrez l'auteur de la citation" value={author} onChange={e => setAuthor(e.target.value)} />
                 </div>
                 <div className="form-flex">
-                    <label htmlFor="contributor" className="form-label">Proposé par:</label>
+                    <label htmlFor="contributor" className="form-label">Proposé(e) par:</label>
                     <input type="text" className="form-control" id="contributor" placeholder="Entrez votre prénom / petit surnom" value={contributor} onChange={e => setContributor(e.target.value)} />
                 </div>
             </div>

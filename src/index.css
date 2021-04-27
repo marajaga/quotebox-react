@@ -56,21 +56,27 @@ code {
   margin: 10px 0px 30px 0px;
 }
 
+.quote-container{
+  width: 250px;
+}
+
 .quote{
   font-size: 1rem;
-  padding-top: 50px;
-  color: #fff;
+  padding: 5px;
   color: black;
+  margin: 0 auto;
 }
 
 .quote-author{
-  color:rgb(61, 58, 58); 
+  color:rgb(61, 58, 58);
+  font-size: 0.8rem; 
 }
 
 .quote-contributor{
   color: rgb(52, 52, 170);
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  font-size: 0.7rem;
 }
 
 .form{
@@ -151,9 +157,9 @@ b.front{
 i{
   position:absolute;
   top:50px;
-  left:50px;
+  left: 50px;
   width:300px;
-  height:200px;
+  height:250px;
   display:block;
   transition: all 1s linear;
 }
