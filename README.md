@@ -1,6 +1,7 @@
 La bôite à citations positives 
 
 Ce projet permet de récupérer une citation au hasard depuis un backend écrit en Django et de proposer une citation par formulaire.
+Dans la partie admin, il a un système de modération pour publier ou non la citation. 
 
 Technos utilisés: 
 Django , Django REST, React
