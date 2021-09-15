@@ -50,6 +50,7 @@ code {
   margin: 100px 0px 30px 0px;
   outline: 0;
   cursor: grab;
+  text-align: center;
 }
 
 .btn-design{
@@ -122,11 +123,13 @@ code {
 }
 
 .form-label{
-  width: 30%; 
+  width: 30%;
+  font-size: 18px;
 }
 @media screen and (min-width: 700px) {
   .form-label{
     padding: 0px 100px;
+    font-size: 30px;
   }
 }
 

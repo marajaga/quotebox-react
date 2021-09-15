@@ -37,7 +37,7 @@ function Form() {
                 </div>
                 <div className="form-flex">
                     <label htmlFor="contributor" className="form-label">Proposé par:</label>
-                    <input type="text" className="form-control" id="contributor" placeholder="Entrez votre prénom / petit surnom" value={contributor} onChange={e => setContributor(e.target.value)} />
+                    <input type="text" className="form-control" id="contributor" placeholder="Entrez votre prénom / pseudo" value={contributor} onChange={e => setContributor(e.target.value)} />
                 </div>
             </div>
             <button onClick={createQuote} className="btn btn-sucess btn-design">Ajouter une citation</button>
