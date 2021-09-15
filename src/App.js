@@ -29,7 +29,7 @@ function App() {
 
       </div>
       <div className="App">
-        <h1 className="title">La boîte à citations positives</h1>
+        <h1 className="title">La citation positive</h1>
         {!contributorMode ?
           <>
             <div className="wrapper">
