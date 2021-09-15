@@ -42,7 +42,8 @@ code {
   color: #fff;
   border-radius: 100%;
   background-color: red;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  padding: 0 auto;
   box-shadow: 1px 5px 1px 5px black;
   width: 60px;
   height: 60px;
@@ -67,7 +68,7 @@ code {
 }
 
 .quote-container{
-  width: 95%;
+  width: 92%;
   padding: 12px 0px;
   display:flex;
   justify-content: center;
