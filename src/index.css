@@ -26,6 +26,11 @@ code {
   text-align: center;
   
 }
+@media screen and (min-width: 700px) {
+  .App{
+    width: 80%;
+  }
+}
 
 .title{
   font-size: 2rem;
@@ -69,6 +74,7 @@ code {
   border: 5px solid black;
   margin: 0px 10px;
 }
+
 
 .quote{
   font-size: 1rem;
